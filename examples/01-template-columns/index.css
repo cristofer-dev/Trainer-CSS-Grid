@@ -1,0 +1,40 @@
+.container{
+  display: grid; /* habilitamos el grid */
+  background-color: #ffd2db;
+  max-width: 960px;
+  margin: 0 auto; /* Para centrar el contenedor */
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* definimos las columnas */
+  text-align: center
+}
+
+.item1{
+  background-color: var(--red-200)
+}
+
+.item2{
+  background-color: var(--blue-200);
+}
+
+.item3{
+  background-color: var(--purple-200);
+}
+
+.item4{
+  background-color:var(--yellow-200);
+}
+
+.item5{
+  background-color: var(--green-200);
+}
+.item6{
+  background-color: var(--orange-200);
+}
+
+.item7{
+  background-color: var(--pink-200)
+}
+
+.item8{
+  background-color: var(--lightBlue-200);
+}
+
